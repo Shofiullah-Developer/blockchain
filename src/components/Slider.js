@@ -1,43 +1,50 @@
 import React from 'react'
-import { Carousel } from 'react-bootstrap'
+import { Button, Carousel } from 'react-bootstrap'
 
 function Slider() {
     return (
         <div>
             <Carousel>
   <Carousel.Item>
-    <img
+    <img style={{height: '550px'}}
       className="d-block w-100"
-      src="holder.js/800x400?text=First slide&bg=373940"
+      src="./img/banner.png"
       alt="First slide"
     />
     <Carousel.Caption>
-      <h2>The Best Place to Collect NFT</h2>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h1 className="">The Best Place to Collect NFs</h1>
+      <p className="pt-2 pb-2">Nulla vitae elit libero, a pharetra augue mollis interdum.<br/>Nulla vitae elit libero pharetra augue mollis interdum.<br/>Nulla vitae elit libero, a pharetra augue mollis.</p>
+      
+      <Button className="me-2 ps-4 pe-4"variant="primary">Create</Button>{' '}
+      <Button className="text-light"variant="outline-primary">Connect Wallet</Button>{' '}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
+    <img style={{height: '550px'}}
       className="d-block w-100"
-      src="../../public/img/banner.png"
+      src="./img/banner.png"
       alt="Second slide"
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h1>The Best Place to Collect NFT</h1>
+      <p className="pt-2 pb-2">Nulla vitae elit libero, a pharetra augue mollis interdum.<br/>Nulla vitae elit libero pharetra augue mollis interdum.<br/>Nulla vitae elit libero, a pharetra augue mollis.</p>
+      <Button className="me-2 ps-4 pe-4"variant="primary">Create</Button>{' '}
+      <Button className="text-light"variant="outline-primary">Connect Wallet</Button>{' '}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
+    <img style={{height: '550px'}}
       className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
+      src="./img/banner.png"
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h1>The Best Place to Collect NFT</h1>
+      <p className="pt-2 pb-2">Nulla vitae elit libero, a pharetra augue mollis interdum.<br/>Nulla vitae elit libero pharetra augue mollis interdum.<br/>Nulla vitae elit libero, a pharetra augue mollis.</p>
+      <Button className="me-2 ps-4 pe-4" variant="primary"> Create </Button>{' '}
+      <Button className="text-light"variant="outline-primary">Connect Wallet</Button>{' '}
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
